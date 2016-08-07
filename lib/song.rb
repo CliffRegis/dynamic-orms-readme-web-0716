@@ -6,6 +6,7 @@ class Song
 
   def self.table_name
     self.to_s.downcase.pluralize
+    #make to small case
   end
 
   def self.column_names
